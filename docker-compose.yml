@@ -14,7 +14,7 @@ services:
   back:
     build:
       context: ./back
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     environment:
       RAILS_ENV: development
       TZ: Asia/Tokyo
